@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		030C86A0667F6873C24EC968 /* IACClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6882AB1AAC9B6CB099E3B721 /* IACClient.m */; };
+		1D6B03852AEFBDF400EB6501 /* IACDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6B03802AEFBDF400EB6501 /* IACDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6B03862AEFBDF400EB6501 /* IACRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6B03812AEFBDF400EB6501 /* IACRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6B03872AEFBDF400EB6501 /* IACClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6B03822AEFBDF400EB6501 /* IACClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6B03882AEFBDF400EB6501 /* IACManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6B03832AEFBDF400EB6501 /* IACManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6B03892AEFBDF400EB6501 /* NSString+IACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6B03842AEFBDF400EB6501 /* NSString+IACExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EC1124A1C7220AE60F25B29 /* IACRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5ED0340922F02E668BDEA /* IACRequest.m */; };
 		6A8D02A59EA49BCEC150A75D /* NSString+IACExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE29DE142B5BD22D4B3D6004 /* NSString+IACExtensions.m */; };
 		94FBBA9FF9DCF8E6C717D802 /* IACManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F569676B67BEBF3BEA702FE /* IACManager.m */; };
@@ -28,6 +33,11 @@
 
 /* Begin PBXFileReference section */
 		1AE5ED0340922F02E668BDEA /* IACRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IACRequest.m; sourceTree = "<group>"; };
+		1D6B03802AEFBDF400EB6501 /* IACDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IACDelegate.h; path = InterAppCommunication/IACDelegate.h; sourceTree = "<group>"; };
+		1D6B03812AEFBDF400EB6501 /* IACRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IACRequest.h; path = InterAppCommunication/IACRequest.h; sourceTree = "<group>"; };
+		1D6B03822AEFBDF400EB6501 /* IACClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IACClient.h; path = InterAppCommunication/IACClient.h; sourceTree = "<group>"; };
+		1D6B03832AEFBDF400EB6501 /* IACManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IACManager.h; path = InterAppCommunication/IACManager.h; sourceTree = "<group>"; };
+		1D6B03842AEFBDF400EB6501 /* NSString+IACExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+IACExtensions.h"; path = "InterAppCommunication/NSString+IACExtensions.h"; sourceTree = "<group>"; };
 		3F569676B67BEBF3BEA702FE /* IACManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IACManager.m; sourceTree = "<group>"; };
 		6882AB1AAC9B6CB099E3B721 /* IACClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IACClient.m; sourceTree = "<group>"; };
 		7BC0C648321BAB1E24C5D5D5 /* InterAppCommunication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InterAppCommunication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +78,11 @@
 		20FE192AA8CFF29D36505839 = {
 			isa = PBXGroup;
 			children = (
+				1D6B03822AEFBDF400EB6501 /* IACClient.h */,
+				1D6B03802AEFBDF400EB6501 /* IACDelegate.h */,
+				1D6B03832AEFBDF400EB6501 /* IACManager.h */,
+				1D6B03812AEFBDF400EB6501 /* IACRequest.h */,
+				1D6B03842AEFBDF400EB6501 /* NSString+IACExtensions.h */,
 				28D96D181D14F83879222754 /* Project */,
 				4074F7CDF422BD04DA58246C /* Frameworks */,
 				9016F69283ABD8D6C51F218E /* Products */,
@@ -108,11 +123,27 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		1D6B037F2AEFBDDD00EB6501 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6B03852AEFBDF400EB6501 /* IACDelegate.h in Headers */,
+				1D6B03862AEFBDF400EB6501 /* IACRequest.h in Headers */,
+				1D6B03872AEFBDF400EB6501 /* IACClient.h in Headers */,
+				1D6B03882AEFBDF400EB6501 /* IACManager.h in Headers */,
+				1D6B03892AEFBDF400EB6501 /* NSString+IACExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		79B1F21DE773346476840045 /* InterAppCommunication */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBC19C08A86DC491E4D1082D /* Build configuration list for PBXNativeTarget "InterAppCommunication" */;
 			buildPhases = (
+				1D6B037F2AEFBDDD00EB6501 /* Headers */,
 				5C635426B86CB29267F8A457 /* Sources */,
 				B6D9CB3058E1625F33817B97 /* Resources */,
 				899C958E3A8EB3E07A3EB30A /* Embed Frameworks */,
