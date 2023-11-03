@@ -7,29 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030C86A0667F6873C24EC968 /* IACClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6882AB1AAC9B6CB099E3B721 /* IACClient.m */; };
-		1D6B03852AEFBDF400EB6501 /* IACDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6B03802AEFBDF400EB6501 /* IACDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D6B03862AEFBDF400EB6501 /* IACRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6B03812AEFBDF400EB6501 /* IACRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D6B03872AEFBDF400EB6501 /* IACClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6B03822AEFBDF400EB6501 /* IACClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D6B03882AEFBDF400EB6501 /* IACManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6B03832AEFBDF400EB6501 /* IACManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D6B03892AEFBDF400EB6501 /* NSString+IACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6B03842AEFBDF400EB6501 /* NSString+IACExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EC1124A1C7220AE60F25B29 /* IACRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5ED0340922F02E668BDEA /* IACRequest.m */; };
-		6A8D02A59EA49BCEC150A75D /* NSString+IACExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE29DE142B5BD22D4B3D6004 /* NSString+IACExtensions.m */; };
-		94FBBA9FF9DCF8E6C717D802 /* IACManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F569676B67BEBF3BEA702FE /* IACManager.m */; };
+		28363FB52AF52F450085AFEE /* InterAppCommunication.h in Headers */ = {isa = PBXBuildFile; fileRef = 28363FB42AF52F450085AFEE /* InterAppCommunication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28363FB92AF52F780085AFEE /* IACClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6882AB1AAC9B6CB099E3B721 /* IACClient.m */; };
+		28363FBA2AF52F780085AFEE /* IACManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F569676B67BEBF3BEA702FE /* IACManager.m */; };
+		28363FBB2AF52F780085AFEE /* IACRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5ED0340922F02E668BDEA /* IACRequest.m */; };
+		28363FBC2AF52F780085AFEE /* NSString+IACExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE29DE142B5BD22D4B3D6004 /* NSString+IACExtensions.m */; };
+		28363FBD2AF52F820085AFEE /* IACClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6B03822AEFBDF400EB6501 /* IACClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28363FBE2AF52F820085AFEE /* IACDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6B03802AEFBDF400EB6501 /* IACDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28363FBF2AF52F820085AFEE /* IACManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6B03832AEFBDF400EB6501 /* IACManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28363FC02AF52F820085AFEE /* IACRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6B03812AEFBDF400EB6501 /* IACRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28363FC12AF52F820085AFEE /* NSString+IACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6B03842AEFBDF400EB6501 /* NSString+IACExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		899C958E3A8EB3E07A3EB30A /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1AE5ED0340922F02E668BDEA /* IACRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IACRequest.m; sourceTree = "<group>"; };
@@ -38,15 +26,16 @@
 		1D6B03822AEFBDF400EB6501 /* IACClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IACClient.h; path = InterAppCommunication/IACClient.h; sourceTree = "<group>"; };
 		1D6B03832AEFBDF400EB6501 /* IACManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IACManager.h; path = InterAppCommunication/IACManager.h; sourceTree = "<group>"; };
 		1D6B03842AEFBDF400EB6501 /* NSString+IACExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+IACExtensions.h"; path = "InterAppCommunication/NSString+IACExtensions.h"; sourceTree = "<group>"; };
+		28363FB22AF52F450085AFEE /* InterAppCommunication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InterAppCommunication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28363FB42AF52F450085AFEE /* InterAppCommunication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterAppCommunication.h; sourceTree = "<group>"; };
 		3F569676B67BEBF3BEA702FE /* IACManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IACManager.m; sourceTree = "<group>"; };
 		6882AB1AAC9B6CB099E3B721 /* IACClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IACClient.m; sourceTree = "<group>"; };
-		7BC0C648321BAB1E24C5D5D5 /* InterAppCommunication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InterAppCommunication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95CC057085E4A6459C8FA4C1 /* InterAppCommunication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "InterAppCommunication-Info.plist"; sourceTree = "<group>"; };
 		CE29DE142B5BD22D4B3D6004 /* NSString+IACExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+IACExtensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0532D514BBCD84AFBFA03456 /* Frameworks */ = {
+		28363FAF2AF52F450085AFEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,9 +73,18 @@
 				1D6B03812AEFBDF400EB6501 /* IACRequest.h */,
 				1D6B03842AEFBDF400EB6501 /* NSString+IACExtensions.h */,
 				28D96D181D14F83879222754 /* Project */,
+				28363FB32AF52F450085AFEE /* InterAppCommunication */,
 				4074F7CDF422BD04DA58246C /* Frameworks */,
 				9016F69283ABD8D6C51F218E /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		28363FB32AF52F450085AFEE /* InterAppCommunication */ = {
+			isa = PBXGroup;
+			children = (
+				28363FB42AF52F450085AFEE /* InterAppCommunication.h */,
+			);
+			path = InterAppCommunication;
 			sourceTree = "<group>";
 		};
 		28D96D181D14F83879222754 /* Project */ = {
@@ -116,7 +114,7 @@
 		9016F69283ABD8D6C51F218E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7BC0C648321BAB1E24C5D5D5 /* InterAppCommunication.framework */,
+				28363FB22AF52F450085AFEE /* InterAppCommunication.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,30 +122,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1D6B037F2AEFBDDD00EB6501 /* Headers */ = {
+		28363FAD2AF52F450085AFEE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D6B03852AEFBDF400EB6501 /* IACDelegate.h in Headers */,
-				1D6B03862AEFBDF400EB6501 /* IACRequest.h in Headers */,
-				1D6B03872AEFBDF400EB6501 /* IACClient.h in Headers */,
-				1D6B03882AEFBDF400EB6501 /* IACManager.h in Headers */,
-				1D6B03892AEFBDF400EB6501 /* NSString+IACExtensions.h in Headers */,
+				28363FB52AF52F450085AFEE /* InterAppCommunication.h in Headers */,
+				28363FBD2AF52F820085AFEE /* IACClient.h in Headers */,
+				28363FBE2AF52F820085AFEE /* IACDelegate.h in Headers */,
+				28363FBF2AF52F820085AFEE /* IACManager.h in Headers */,
+				28363FC02AF52F820085AFEE /* IACRequest.h in Headers */,
+				28363FC12AF52F820085AFEE /* NSString+IACExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		79B1F21DE773346476840045 /* InterAppCommunication */ = {
+		28363FB12AF52F450085AFEE /* InterAppCommunication */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBC19C08A86DC491E4D1082D /* Build configuration list for PBXNativeTarget "InterAppCommunication" */;
+			buildConfigurationList = 28363FB62AF52F450085AFEE /* Build configuration list for PBXNativeTarget "InterAppCommunication" */;
 			buildPhases = (
-				1D6B037F2AEFBDDD00EB6501 /* Headers */,
-				5C635426B86CB29267F8A457 /* Sources */,
-				B6D9CB3058E1625F33817B97 /* Resources */,
-				899C958E3A8EB3E07A3EB30A /* Embed Frameworks */,
-				0532D514BBCD84AFBFA03456 /* Frameworks */,
+				28363FAD2AF52F450085AFEE /* Headers */,
+				28363FAE2AF52F450085AFEE /* Sources */,
+				28363FAF2AF52F450085AFEE /* Frameworks */,
+				28363FB02AF52F450085AFEE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -155,7 +153,7 @@
 			);
 			name = InterAppCommunication;
 			productName = InterAppCommunication;
-			productReference = 7BC0C648321BAB1E24C5D5D5 /* InterAppCommunication.framework */;
+			productReference = 28363FB22AF52F450085AFEE /* InterAppCommunication.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -164,6 +162,11 @@
 		1F6D881421539F861EA3D75B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				TargetAttributes = {
+					28363FB12AF52F450085AFEE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
 			};
 			buildConfigurationList = 1947A537529CB09019CFF1AF /* Build configuration list for PBXProject "InterAppCommunication" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -178,13 +181,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79B1F21DE773346476840045 /* InterAppCommunication */,
+				28363FB12AF52F450085AFEE /* InterAppCommunication */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B6D9CB3058E1625F33817B97 /* Resources */ = {
+		28363FB02AF52F450085AFEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,31 +197,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5C635426B86CB29267F8A457 /* Sources */ = {
+		28363FAE2AF52F450085AFEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				030C86A0667F6873C24EC968 /* IACClient.m in Sources */,
-				94FBBA9FF9DCF8E6C717D802 /* IACManager.m in Sources */,
-				3EC1124A1C7220AE60F25B29 /* IACRequest.m in Sources */,
-				6A8D02A59EA49BCEC150A75D /* NSString+IACExtensions.m in Sources */,
+				28363FB92AF52F780085AFEE /* IACClient.m in Sources */,
+				28363FBA2AF52F780085AFEE /* IACManager.m in Sources */,
+				28363FBB2AF52F780085AFEE /* IACRequest.m in Sources */,
+				28363FBC2AF52F780085AFEE /* NSString+IACExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		35990B2F22B963BAC891595F /* Release */ = {
+		28363FB72AF52F450085AFEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = "Derived/InfoPlists/InterAppCommunication-Info.plist";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -226,50 +230,51 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = InterAppCommunication;
-				PRODUCT_NAME = InterAppCommunication;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.golubev.InterAppCommunication;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6C69059EDCDAD128789D7D8E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = "Derived/InfoPlists/InterAppCommunication-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = InterAppCommunication;
-				PRODUCT_NAME = InterAppCommunication;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_COMPILATION_MODE = singlefile;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		28363FB82AF52F450085AFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.golubev.InterAppCommunication;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		97086BDFACE2317562EB6FFA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -395,11 +400,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBC19C08A86DC491E4D1082D /* Build configuration list for PBXNativeTarget "InterAppCommunication" */ = {
+		28363FB62AF52F450085AFEE /* Build configuration list for PBXNativeTarget "InterAppCommunication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C69059EDCDAD128789D7D8E /* Debug */,
-				35990B2F22B963BAC891595F /* Release */,
+				28363FB72AF52F450085AFEE /* Debug */,
+				28363FB82AF52F450085AFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
